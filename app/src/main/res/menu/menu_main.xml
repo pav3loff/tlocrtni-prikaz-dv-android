@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myapplicationdelete.MainActivity">
+    <item
+        android:id="@+id/itemLoadData"
+        android:orderInCategory="100"
+        android:title="Load Data"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/itemLoadDetails"
+        android:orderInCategory="101"
+        android:title="Load Details" />
+    <item
+        android:id="@+id/itemLoadTheme"
+        android:orderInCategory="102"
+        android:title="Load Theme" />
+</menu>
