@@ -152,7 +152,7 @@ public class MainActivity extends AppCompatActivity {
 
             mapView.getLayerManager().getLayers().add(tileRendererLayer);
 
-            mapView.setCenter(new LatLong(45.843568, 15.984531));
+            mapView.setCenter(new LatLong(45.897305, 15.988725));
             mapView.setZoomLevel((byte) 12);
         } catch(Exception e) {
             e.printStackTrace();
